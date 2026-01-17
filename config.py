@@ -15,12 +15,12 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2021145517').split()]
 
     # channels logs
-    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1002521835919") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002521835919"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
