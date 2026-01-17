@@ -5,18 +5,18 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "28167693")
+    API_HASH  = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","")     
-    DATABASE_URL  = os.environ.get("DATABASE_URL","")
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","yato")     
+    DATABASE_URL  = os.environ.get("DATABASE_URL","mongodb+srv://premkumarsha02:premkumarsha02@cluster0.b4vrd9s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2021145517').split()]
 
     # channels logs
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
