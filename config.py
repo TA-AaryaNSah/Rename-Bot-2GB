@@ -15,11 +15,11 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://64.media.tumblr.com/04812811d689a930620ac4eea583b3ee/d4a1eaa3f9029f76-f4/s1280x1920/77fb3e77d4531f4692fa4715112bdaf7b6806c05.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2021145517').split()]
 
     # channels logs
-    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1002521835919") 
+    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002521835919"))
 
     # wes response configuration     
