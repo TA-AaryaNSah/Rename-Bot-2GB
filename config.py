@@ -7,7 +7,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "28167693")
     API_HASH  = os.environ.get("API_HASH", "5924714f9a7a69c4fde389805baa7d23")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8676574142:AAGjxlexyVAYSzxAOi1ju3bBYwo8gIasDgc") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8220186080:AAGfpK7CPs5V8C3zE0RpgODi38_w1nzXKP8") 
    
     # database config
     DATABASE_NAME = os.environ.get("DATABASE_NAME","yato")     
@@ -31,25 +31,18 @@ class Txt(object):
     # part of text configuration
     START_TXT = """Hello {} 👋 
 
-➻ This Is An Advanced And Yet Powerful Rename Bot.
-
-➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.
-
-➻ You Can Also Convert Video To File And File To Video.
-
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
-
-<b>Bot Is Made By :</b> @MadflixBotz"""
+➻ This Is An Advanced And Yet Powerful Rename Bot. | Using This Bot You Can Rename And Change Thumbnail Of Your Files.
+➻ You Can Also Convert Video To File And File To Video. | This Bot Also Supports Custom Thumbnail And Custom Caption."""
 
     ABOUT_TXT = """
 ╭───────────────⍟
-├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/MadflixBotz>MadflixBotz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixSupport>Jishu Developer</a>
-├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
-├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
-├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://instagram.com/jishukumarsinha>Rename v4.7.0</a></b>     
+├<b>My Name</b> : {}
+├<b>Developer</b> : <a href=https://t.me/MadflixBotz>MadflixBotz</a> 
+├<b>Programer</b> : <a href=https://t.me/MadflixSupport>Jishu Developer</a>
+├<b>Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
+├<b>Language</b> : <a href=https://www.python.org>Python 3</a>
+├<b>Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
+├<b>Build Version</b> : <a href=https://instagram.com/jishukumarsinha>Rename v4.7.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -75,7 +68,6 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MadflixSupport>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -90,7 +82,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `kumarjishusinha@ibl`
+<b>🛍 UPI ID:</b> `fork.aaryan@fam`
 """
 
 
